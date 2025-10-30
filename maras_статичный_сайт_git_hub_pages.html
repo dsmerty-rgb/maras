@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="ru" class="scroll-smooth">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Семья Maras — Majestic RP</title>
+  <meta name="description" content="Официальный сайт семьи Maras на сервере Majestic RP: устав, ранги, набор, галерея." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .icon{width:20px;height:20px}
+  </style>
+</head>
+<body class="antialiased bg-white text-black dark:bg-black dark:text-white">
+  <header class="sticky top-0 z-50 border-b border-black/10 bg-white/80 backdrop-blur dark:border-white/10 dark:bg-black/50">
+    <div class="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8 flex h-16 items-center justify-between">
+      <a href="#home" class="flex items-center gap-2 font-semibold">
+        <svg class="icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-7-4.35-7-10a7 7 0 0 1 14 0c0 5.65-7 10-7 10z"></path></svg>
+        <span>Семья Maras</span>
+      </a>
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a href="#about" class="hover:underline">О семье</a>
+        <a href="#rules" class="hover:underline">Правила</a>
+        <a href="#ranks" class="hover:underline">Ранги</a>
+        <a href="#gallery" class="hover:underline">Галерея</a>
+        <a href="#contact" class="hover:underline">Набор</a>
+        <button id="themeBtn" class="rounded-full p-2 hover:bg-black/5 dark:hover:bg-white/10" aria-label="Сменить тему">
+          <span id="themeIcon">🌙</span>
+        </button>
+      </nav>
+      <button id="burger" class="md:hidden rounded-full p-2 hover:bg-black/5 dark:hover:bg-white/10" aria-label="Меню">☰</button>
+    </div>
+    <div id="mobileNav" class="hidden md:hidden border-t border-black/10 dark:border-white/10">
+      <div class="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8 py-4 flex flex-col gap-2 text-sm">
+        <a href="#about" class="rounded-xl px-3 py-2 hover:bg-black/5 dark:hover:bg-white/10">О семье</a>
+        <a href="#rules" class="rounded-xl px-3 py-2 hover:bg-black/5 dark:hover:bg-white/10">Правила</a>
+        <a href="#ranks" class="rounded-xl px-3 py-2 hover:bg-black/5 dark:hover:bg-white/10">Ранги</a>
+        <a href="#gallery" class="rounded-xl px-3 py-2 hover:bg-black/5 dark:hover:bg-white/10">Галерея</a>
+        <a href="#contact" class="rounded-xl px-3 py-2 hover:bg-black/5 dark:hover:bg-white/10">Набор</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="home" class="relative bg-gradient-to-b from-white to-white dark:from-black dark:to-zinc-900">
+      <div class="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8 grid min-h-[72vh] place-items-center py-20 sm:py-24">
+        <div class="max-w-3xl text-center">
+          <div class="mb-4 inline-flex items-center gap-2 rounded-full border border-black/10 px-3 py-1 text-xs text-black/70 dark:border-white/10 dark:text-white/70">
+            <span>Majestic RP — сервер</span>
+          </div>
+          <h1 class="mb-4 text-4xl font-bold tracking-tight sm:text-6xl">Семья Maras</h1>
+          <p class="mx-auto mb-8 max-w-2xl text-base text-black/70 dark:text-white/70 sm:text-lg">Официальный сайт семьи Maras: устав, система рангов, галерея и набор.</p>
+          <div class="flex flex-col sm:flex-row gap-3 justify-center">
+            <a href="#rules" class="inline-flex items-center justify-center gap-2 rounded-2xl px-5 py-3 text-sm font-semibold bg-black text-white dark:bg-white dark:text-black">Устав</a>
+            <a href="#ranks" class="inline-flex items-center justify-center gap-2 rounded-2xl px-5 py-3 text-sm font-semibold border border-black/10 dark:border-white/20">Ранги и повышение</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="py-20 sm:py-24">
+      <div class="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
+        <header class="mb-10 text-center">
+          <p class="mb-2 text-sm font-semibold uppercase tracking-wider text-black/70 dark:text-white/80">Кто мы</p>
+          <h2 class="text-3xl font-bold tracking-tight sm:text-4xl">О семье</h2>
+        </header>
+        <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <div class="rounded-2xl border border-black/10 p-6 dark:border-white/10">
+            <div class="mb-3 inline-flex rounded-xl bg-black/5 p-2 dark:bg-white/10">❤️</div>
+            <h3 class="mb-1 text-lg font-semibold">Ценности</h3>
+            <p class="text-sm text-black/70 dark:text-white/70">Честь, дисциплина, взаимовыручка. Семья выше личного.</p>
+          </div>
+          <div class="rounded-2xl border border-black/10 p-6 dark:border-white/10">
+            <div class="mb-3 inline-flex rounded-xl bg-black/5 p-2 dark:bg-white/10">🏛️</div>
+            <h3 class="mb-1 text-lg font-semibold">Территория</h3>
+            <p class="text-sm text-black/70 dark:text-white/70">Majestic RP — действуем по правилам, держим деловую репутацию.</p>
+          </div>
+          <div class="rounded-2xl border border-black/10 p-6 dark:border-white/10">
+            <div class="mb-3 inline-flex rounded-xl bg-black/5 p-2 dark:bg-white/10">🚘</div>
+            <h3 class="mb-1 text-lg font-semibold">Стиль</h3>
+            <p class="text-sm text-black/70 dark:text-white/70">Чёрный Land Cruiser 200 — фирменный эскорт. Дресс-код: тёмный смарт-кэжуал.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Rules -->
+    <section id="rules" class="py-20 sm:py-24 bg-black/5 dark:bg-white/5">
+      <div class="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
+        <header class="mb-10 text-center">
+          <p class="mb-2 text-sm font-semibold uppercase tracking-wider text-black/70 dark:text-white/80">Устав</p>
+          <h2 class="text-3xl font-bold tracking-tight sm:text-4xl">Правила</h2>
+        </header>
+        <div class="grid gap-6 md:grid-cols-3">
+          <div class="rounded-2xl border border-black/10 p-6 dark:border-white/10">
+            <h3 class="mb-2 text-lg font-semibold">RP-правила</h3>
+            <ul class="list-disc space-y-2 pl-5 text-sm text-black/70 dark:text-white/70">
+              <li>Без MG/PG/DM/NRP. Строго соблюдаем правила сервера.</li>
+              <li>FearRP — ценим жизнь. Рэйдж и месть вне RP запрещены.</li>
+              <li>Meta-коммуникации: дискорд — только в рамках RP-каналов.</li>
+            </ul>
+          </div>
+          <div class="rounded-2xl border border-black/10 p-6 dark:border-white/10">
+            <h3 class="mb-2 text-lg font-semibold">Семейная дисциплина</h3>
+            <ul class="list-disc space-y-2 pl-5 text-sm text-black/70 dark:text-white/70">
+              <li>Слушаем старших по званию. Операции — по команде лидера/куратора.</li>
+              <li>Дресс-код: тёмная одежда; автопарк — чёрные LC200/аналог.</li>
+              <li>Запрещены токсичность, оскорбления, реклама сторонних проектов.</li>
+            </ul>
+          </div>
+          <div class="rounded-2xl border border-black/10 p-6 dark:border-white/10">
+            <h3 class="mb-2 text-lg font-semibold">Экономика и имущество</h3>
+            <ul class="list-disc space-y-2 pl-5 text-sm text-black/70 dark:text-white/70">
+              <li>Семейная касса — отчётность еженедельно. Крупные траты согласуются.</li>
+              <li>Лут/добыча — распределение по вкладу; новички получают стартпак.</li>
+              <li>Чужое имущество — табу. Никакого скама и багоюза.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ranks -->
+    <section id="ranks" class="py-20 sm:py-24">
+      <div class="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
+        <header class="mb-10 text-center">
+          <p class="mb-2 text-sm font-semibold uppercase tracking-wider text-black/70 dark:text-white/80">Рост и мотивация</p>
+          <h2 class="text-3xl font-bold tracking-tight sm:text-4xl">Система рангов и повышение</h2>
+        </header>
+        <div class="overflow-x-auto">
+          <table class="w-full border-collapse text-sm">
+            <thead>
+              <tr class="border-b border-black/10 dark:border-white/10">
+                <th class="px-3 py-2 text-left">Ранг</th>
+                <th class="px-3 py-2 text-left">Требования</th>
+                <th class="px-3 py-2 text-left">Права</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="border-b border-black/10 dark:border-white/10"><td class="px-3 py-2 font-medium">Лидер</td><td class="px-3 py-2">Назначение</td><td class="px-3 py-2">Стратегия, финансы, вербовка</td></tr>
+              <tr class="border-b border-black/10 dark:border-white/10"><td class="px-3 py-2 font-medium">Куратор</td><td class="px-3 py-2">+ доверие лидера</td><td class="px-3 py-2">Кураторство отделов</td></tr>
+              <tr class="border-b border-black/10 dark:border-white/10"><td class="px-3 py-2 font-medium">Капитан</td><td class="px-3 py-2">100+ часов, 3 рейда</td><td class="px-3 py-2">Тактика, набор по одобрению</td></tr>
+              <tr class="border-b border-black/10 dark:border-white/10"><td class="px-3 py-2 font-medium">Сержант</td><td class="px-3 py-2">50+ часов, устав</td><td class="px-3 py-2">Обучение новичков</td></tr>
+              <tr class="border-b border-black/10 dark:border-white/10"><td class="px-3 py-2 font-medium">Боец</td><td class="px-3 py-2">Принят в семью</td><td class="px-3 py-2">Участие в выездах</td></tr>
+              <tr><td class="px-3 py-2 font-medium">Стажёр</td><td class="px-3 py-2">Собеседование</td><td class="px-3 py-2">Испытательный срок 7 дней</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="mt-4 text-xs text-black/60 dark:text-white/60 text-center">Повышение раз в неделю по активности (онлайн, выезды, вклад в кассу, RP-сцены).</p>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="py-20 sm:py-24 bg-black/5 dark:bg-white/5">
+      <div class="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
+        <header class="mb-10 text-center">
+          <p class="mb-2 text-sm font-semibold uppercase tracking-wider text-black/70 dark:text-white/80">Фирменный стиль</p>
+          <h2 class="text-3xl font-bold tracking-tight sm:text-4xl">Галерея / Автопарк LC200</h2>
+        </header>
+        <div class="grid grid-cols-2 gap-3 sm:grid-cols-3">
+          <a target="_blank" class="aspect-square rounded-2xl border border-black/10 p-3 dark:border-white/10 flex items-end justify-between text-xs text-black/70 dark:text-white/70" href="https://www.gta5-mods.com/vehicles/toyota-land-cruiser-200-2016">LC200 2016 — Add-on/Replace ↗</a>
+          <a target="_blank" class="aspect-square rounded-2xl border border-black/10 p-3 dark:border-white/10 flex items-end justify-between text-xs text-black/70 dark:text-white/70" href="https://www.gta5-mods.com/vehicles/toyota-land-cruiser-200-c-hakama-2020">LC200 HAKAMA 2020 — Add-on/FiveM ↗</a>
+          <a target="_blank" class="aspect-square rounded-2xl border border-black/10 p-3 dark:border-white/10 flex items-end justify-between text-xs text-black/70 dark:text-white/70" href="https://ko.gta5-mods.com/vehicles/toyota-land-cruiser-200-unlocked">LC200 Unlocked ↗</a>
+          <a target="_blank" class="aspect-square rounded-2xl border border-black/10 p-3 dark:border-white/10 flex items-end justify-between text-xs text-black/70 dark:text-white/70" href="https://gta5modsindia.com/shop/free/toyota-land-cruiser-200-offroad-edition-free/">LC200 Offroad Edition ↗</a>
+        </div>
+        <p class="mt-4 text-center text-sm text-black/60 dark:text-white/60">Есть свои скриншоты? Дай ссылки — подставлю картинки вместо ссылок.</p>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-20 sm:py-24">
+      <div class="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
+        <header class="mb-10 text-center">
+          <p class="mb-2 text-sm font-semibold uppercase tracking-wider text-black/70 dark:text-white/80">Вступление</p>
+          <h2 class="text-3xl font-bold tracking-tight sm:text-4xl">Набор в семью</h2>
+        </header>
+        <div class="grid items-stretch gap-6 lg:grid-cols-2">
+          <div class="rounded-2xl border border-black/10 p-6 dark:border-white/10">
+            <h3 class="mb-3 text-lg font-semibold">Подать заявку</h3>
+            <form onsubmit="event.preventDefault(); alert('Заявка отправлена!');" class="space-y-4">
+              <div>
+                <label class="mb-1 block text-sm">Ник (Majestic)</label>
+                <input required class="w-full rounded-xl border border-black/10 bg-transparent px-3 py-2 outline-none focus:ring-2 focus:ring-black dark:border-white/20 dark:focus:ring-white" />
+              </div>
+              <div>
+                <label class="mb-1 block text-sm">Discord</label>
+                <input placeholder="name#0000" class="w-full rounded-xl border border-black/10 bg-transparent px-3 py-2 outline-none focus:ring-2 focus:ring-black dark:border-white/20 dark:focus:ring-white" />
+              </div>
+              <div>
+                <label class="mb-1 block text-sm">E-mail (необязательно)</label>
+                <input type="email" class="w-full rounded-xl border border-black/10 bg-transparent px-3 py-2 outline-none focus:ring-2 focus:ring-black dark:border-white/20 dark:focus:ring-white" />
+              </div>
+              <div>
+                <label class="mb-1 block text-sm">О себе</label>
+                <textarea rows="4" class="w-full rounded-xl border border-black/10 bg-transparent px-3 py-2 outline-none focus:ring-2 focus:ring-black dark:border-white/20 dark:focus:ring-white"></textarea>
+              </div>
+              <button class="w-full inline-flex items-center justify-center gap-2 rounded-2xl px-5 py-3 text-sm font-semibold bg-black text-white dark:bg-white dark:text-black">Отправить</button>
+            </form>
+          </div>
+          <div class="rounded-2xl border border-black/10 p-6 dark:border-white/10">
+            <h3 class="mb-3 text-lg font-semibold">Как связаться</h3>
+            <ul class="space-y-3 text-sm">
+              <li class="flex items-center gap-2">✉️ Discord: discord.gg/your-invite</li>
+              <li class="flex items-center gap-2">📞 Голосовые: Discord / In-game VOIP</li>
+              <li class="flex items-center gap-2">📍 Сервер: Majestic RP</li>
+            </ul>
+            <div class="mt-6 rounded-xl bg-black/5 p-4 text-sm dark:bg-white/10">Собеседования ежедневно. Новичкам — наставник на 7 дней и стартпак.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-black/10 py-10 text-sm text-black/70 dark:border-white/10 dark:text-white/70">
+    <div class="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <p>© <span id="year"></span> Семья Maras. RP‑проект, не связан с Rockstar Games и Take‑Two.</p>
+      <div class="flex items-center gap-4">
+        <a href="#rules" class="hover:underline">Правила</a>
+        <a href="#ranks" class="hover:underline">Ранги</a>
+        <a href="#contact" class="hover:underline">Набор</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Тема (светлая/тёмная)
+    const root = document.documentElement;
+    const themeBtn = document.getElementById('themeBtn');
+    const themeIcon = document.getElementById('themeIcon');
+    function setTheme(t){ t==='dark'?root.classList.add('dark'):root.classList.remove('dark'); localStorage.setItem('theme',t); themeIcon.textContent=t==='dark'?'☀️':'🌙'; }
+    setTheme(localStorage.getItem('theme')||'light');
+    themeBtn&&themeBtn.addEventListener('click',()=>{ setTheme(root.classList.contains('dark')?'light':'dark'); });
+    // Мобильное меню
+    const burger=document.getElementById('burger');
+    const mobile=document.getElementById('mobileNav');
+    burger&&burger.addEventListener('click',()=>{ mobile.classList.toggle('hidden'); });
+    // Год
+    document.getElementById('year').textContent=new Date().getFullYear();
+  </script>
+</body>
+</html>
